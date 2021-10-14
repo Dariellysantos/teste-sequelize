@@ -2,6 +2,7 @@ const Sequelize = require("sequelize");
 const database = require("./db");
 const Id = require("./list");
 //modelo task
+//
 const Task = database.define("task", {
   id: {
     type: Sequelize.INTEGER,
